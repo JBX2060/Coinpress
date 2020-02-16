@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from coinpress.cc/password/reset by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Feb 2020 19:59:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="LEY3M2la82qdmPu6ywrwQDP3k3s3UlyethZdXkRw">
+
+    <title>CoinPress | Your coin brought to life in seconds</title>
+
+    <!-- Styles -->
+    <link href="../assets/app.css" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TNSW7LD');</script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+        window.recaptchaKey = '6Lfd2XsUAAAAABvajAn0RIz2WHXMM40MAWs-wCXh';
+    </script>
+
+    <script src="../../www.google.com/recaptcha/api05cd.js?onload=vueRecaptchaApiLoaded&amp;render=explicit" async defer></script>
+
+    <script defer src="../../use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+</head>
+<body class="h-screen antialiased">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNSW7LD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="app" class="h-auto relative min-h-screen">
+        <nav class="bg-white h-24 shadow mb-8 px-8">
+    <div class="container mx-auto h-full">
+        <div class="flex lg:items-center justify-between lg:justify-center pt-8 lg:pt-0 h-24 flex-wrap">
+            <div class="mr-6">
+                <div class="flex items-center">
+                    <img src="../img/coinpress-logo.png" alt="CoinPress logo" class="h-8 mr-4">
+
+                    <a href="../index.html" class="text-2xl font-bold font-sans">
+                        CoinPress
+                    </a>
+                </div>
+            </div>
+            <div class="block float-right lg:hidden">
+                <button onclick="document.getElementById('dropdown').classList.toggle('hidden')" class="flex items-center px-3 py-2 border rounded text-green-lighter border-green-light hover:text-teal hover:border-teal">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+
+            <div id="dropdown" class="w-full hidden block lg:items-center lg:content-center lg:w-auto lg:flex flex-grow text-right uppercase font-extrabold bg-white lg:bg-auto z-50 py-8 lg:py-0 shadow-md lg:shadow-none">
+                <div class="lg:flex-grow mt-4 lg:mt-0">
+                    <a class="mr-8 text-sm text-grey-dark block lg:inline-block my-8 lg:my-4" href="https://blog.coinpress.cc/">Blog</a>
+                    <a class="mr-8 text-sm text-grey-dark block lg:inline-block my-8 lg:my-4" href="https://blog.coinpress.cc/documentation/">Documentation</a>
+                                        <a class="mr-8 text-sm text-grey-dark block lg:inline-block my-8 lg:my-4" href="../login.html">Login</a>
+                        <a class="mr-8 lg:mr-0 text-sm bg-green-dark hover:bg-green text-white hover:text-grey-lightest font-bold py-4 px-4 rounded block lg:inline-block max-w-1/2 float-right" href="../register.html">Create a Coin</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <div class="flex items-center">
+    <div class="md:w-1/2 md:mx-auto">
+        <div class="rounded shadow">
+            <div class="font-medium text-lg text-teal-darker bg-teal p-3 rounded-t">
+                Reset Password
+            </div>
+            <div class="bg-white p-3 rounded-b">
+                
+                <form class="form-horizontal" method="POST" action="https://coinpress.cc/password/email">
+                    <input type="hidden" name="_token" value="LEY3M2la82qdmPu6ywrwQDP3k3s3UlyethZdXkRw">
+
+                    <div class="flex items-stretch mb-3">
+                        <label for="email" class="text-right font-semibold text-grey-dark text-sm pt-2 pr-3 align-middle w-1/4">E-Mail Address</label>
+                        <div class="flex flex-col w-3/4">
+                            <input id="email" type="email" class="flex-grow h-8 px-2 border rounded border-grey-light" name="email" value="" required autofocus>
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="w-3/4 ml-auto">
+                            <button type="submit" class="bg-teal hover:bg-teal-dark text-white text-sm font-semibold py-2 px-4 rounded mr-3">
+                                Send Password Reset Link
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <div class="text-white text-sm bg-blue-darkest-navy py-8 relative w-full">
+    <div class="flex flex-wrap items-center container">
+        <div class="w-full md:w-1/3 pb-4 pb-4 md:pb-0 text-center md:text-left">&copy CoinPress 2020</div>
+
+        <div class="w-full md:w-2/3 float-right text-center md:text-right">
+            <a href="../privacy-policy.html" class="text-white hover:text-grey-lighter">Privacy</a> |
+            <a href="../terms-of-service.html" class="text-white hover:text-grey-lighter">Terms of Service</a> |
+            <a href="mailto:admin@coinpress.cc" class="text-white hover:text-grey-lighter">Contact</a> |
+            <a href="https://twitter.com/coinpresscc" target="__blank" class="text-white hover:text-grey-lighter"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+    </div>
+
+</div>
+
+    <!-- Scripts -->
+    <script src="../assets/app.js"></script>
+</body>
+
+<!-- Mirrored from coinpress.cc/password/reset by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Feb 2020 19:59:42 GMT -->
+</html>
